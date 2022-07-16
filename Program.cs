@@ -8,7 +8,7 @@ namespace WiredBrainCoffeeShopInfoTool
         static void Main(string[] args)
         {
             Console.WriteLine("Wired Brain Coffee Shop Info Tool");
-            Console.WriteLine("Write help to list available commands");
+            Console.WriteLine("Write help word to list available commands");
             var coffeeShopDataProvider = new CoffeeShopDataProvider();
             while (true)
             {
